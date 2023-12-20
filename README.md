@@ -13,6 +13,7 @@ As subclasses Blu-ray e Game possuem várias diferenças que estarão descritas 
 ENUNCIADO:
 A ACMEFun comercializa itens de audiovisual (blu-rays e games) e já possui dados de seu acervo armazenados em arquivo-texto e deseja uma aplicação que faça o processamento de dados deste acervo.
 Você será responsável pelo desenvolvimento da aplicação. O analista de sistemas gerou um diagrama de classes inicial, com alguns atributos, operaçõese relacionamentos apresentados a seguir
+
 ![image](https://github.com/RicardoGraziato/exOrientadaObjetos/assets/112730538/0eda6ddc-906e-40c4-95a1-bb91f3c3ecf4)
 
 O analista definiu as seguintes operações da interface Cobravel:
@@ -57,7 +58,7 @@ titulo;precobase;tipo;duração_categoria
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EEXEMPLO de arquivo para ENTRADA de dados (dados.csv):
+EXEMPLO de arquivo para ENTRADA de dados (dados.csv):
 titulo;precobase;tipo;duracao_categoria
 Star Wars;11.11;1;121
 Star Wars: Battle Front;131.11;2;ACAO
@@ -67,9 +68,9 @@ FIFA 23;333.33;2;ESPORTE
 World of Warcraft;444.44;2;RPG
 Gravidade;66.66;1;91
 Xadrez;30.50;2;ESTRATEGIA
-The SIMS;50.00;2;SIMULACAO  
+The SIMS;50.00;2;SIMULACAO
 
-EEXEMPLO de arquivo de SAÍDA de dados (resultado.csv):
+EXEMPLO de arquivo de SAÍDA de dados (resultado.csv):
 1;9
 2;Star Wars;13.44;5.38
 2;Star Wars: Battle Front;157.33;78.67
