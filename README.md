@@ -1,6 +1,6 @@
 # exOrientadaObjetos
 
-Trabalho desenvolvido durante a cadeira de Programação Orientada a Objetos, visando trabalhar aprendizados gerais durante toda a cadeira.
+Trabalho desenvolvido no primeiro semestre de 2023 durante a cadeira de Programação Orientada a Objetos, visando trabalhar aprendizados gerais durante toda a cadeira.
 (Como polimorfismo, herança, classes abstratas, interfaces, tratamento de execções, encapsulamento e leitura de dados em arquivo).
 
 RESUMO:
@@ -8,6 +8,7 @@ Uma empresa que trabalha com audiovisual (blu-rays e games) já possui dado arma
 
 As subclasses Blu-ray e Game possuem várias diferenças que estarão descritas no enunciado abaixo, assim como também algumas outras classes utilizadas como por exemplo a classe interface "Cobravel".
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ENUNCIADO:
 A ACMEFun comercializa itens de audiovisual (blu-rays e games) e já possui dados de seu acervo armazenados em arquivo-texto e deseja uma aplicação que faça o processamento de dados deste acervo.
@@ -43,6 +44,8 @@ O objetivo do exercício é implementar um sistema capaz de atender as necessida
 • Toda entrada e saída de dados deve ocorrer nas classes App ou Acervo por meio de arquivos.
 • Deve haver tratamento de exceções para que a aplicação não falhe na execução. Em caso de falha, deve ser apresentada no terminal (console) uma mensagem de erro com descrição da falha.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ESTRUTURA DE ARQUIVO PARA ENTRADA DE DADOS (dados.csv):
 titulo;precobase;tipo;duração_categoria
 • titulo: nome do audiovisual
@@ -51,6 +54,8 @@ titulo;precobase;tipo;duração_categoria
 • duracao_categoria: 
   o se o tipo for 1, indica a duração em minutos do BluRay
   o se o tipo for 2, indica a categoria do game
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 EEXEMPLO de arquivo para ENTRADA de dados (dados.csv):
 titulo;precobase;tipo;duracao_categoria
@@ -77,3 +82,8 @@ EEXEMPLO de arquivo de SAÍDA de dados (resultado.csv):
 2;The SIMS;75.00;37.50
 3;2
 4;28.01;Gravidade
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Enunciado fornecido por Marcelo H. Yamaguti (Professor de Programação Orientada a Objetos na PUCRS).
+
