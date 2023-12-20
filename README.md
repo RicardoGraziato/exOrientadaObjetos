@@ -70,14 +70,11 @@ ESTRUTURA DE ARQUIVO PARA ENTRADA DE DADOS (dados.csv): titulo;precobase;tipo;du
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EXEMPLO de arquivo para ENTRADA de dados (dados.csv):
+EXEMPLO de arquivo para ENTRADA de dados (dados.csv) / (SEM OS ESPAÇOS):
 
 titulo;precobase;tipo;duracao_categoria
-
 Star Wars;11.11;1;121
-
 Star Wars: Battle Front;131.11;2;ACAO
-
 Dungeons and Dragons;222.22;2;RPG
 
 Matrix;100.00;1;136
@@ -92,6 +89,7 @@ Xadrez;30.50;2;ESTRATEGIA
 
 The SIMS;50.00;2;SIMULACAO
 
+-----------------------------------------------------
 
 EXEMPLO de arquivo de SAÍDA de dados (resultado.csv):
 
